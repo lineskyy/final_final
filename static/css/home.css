@@ -1,0 +1,14 @@
+.home_img{
+    width: 101%; 
+    /* height: 100%;  */
+    background-image: url(/static/images/home.png);
+    background-position: center center;
+    background-size: cover;
+}
+html { 
+	background: url(/static/images/home.png) no-repeat 50% 50% fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

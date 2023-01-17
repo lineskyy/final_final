@@ -1,0 +1,10 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+<img class="home_img" src="{% static 'images/home.png' %}" alt="home" >
+{% endblock content %}
+
+{% block script %}
+<link href="{% static 'css/home.css' %}" rel="stylesheet" />
+{% endblock script %}
